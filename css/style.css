@@ -1,0 +1,33 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+}
+
+.hero-logo{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.hero-logo img{
+  width: 50%;
+  height: auto;
+  padding: 4% 0 0;
+}
+.social-links{
+  text-align: center;
+}
+.social-links ul{
+  display: block;
+}
+
+.social-links ul li{
+  list-style: none;
+}
