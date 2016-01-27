@@ -8,6 +8,10 @@ html, body{
 .container{
   height: 100%;
   width: 100%;
+  background-image: url('../images/demo-bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-logo{
@@ -16,8 +20,39 @@ html, body{
   text-align: center;
 }
 
-.hero-logo img{
-  width: 50%;
+.hero-logo #logo{
+  width: 85%;
+  max-width: 700px;
   height: auto;
   padding: 5% 0 0;
 }
+
+/*social icons*/
+.social-links{
+  text-align: center;
+  padding-top: 5%;
+}
+.social-links ul{
+  display: block;
+  padding: 0;
+}
+
+.social-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.icon-social{
+  height: 40px;
+}
+
+#icon-social-path{
+  transition: 1s;
+}
+
+svg:hover #icon-social-path {
+  fill: #9E001A;
+}
+/*social-icons-end*/
