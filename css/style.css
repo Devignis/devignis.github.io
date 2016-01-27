@@ -19,15 +19,5 @@ html, body{
 .hero-logo img{
   width: 50%;
   height: auto;
-  padding: 4% 0 0;
-}
-.social-links{
-  text-align: center;
-}
-.social-links ul{
-  display: block;
-}
-
-.social-links ul li{
-  list-style: none;
+  padding: 5% 0 0;
 }
