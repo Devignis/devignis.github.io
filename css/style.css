@@ -22,15 +22,14 @@ html, body{
 
 .hero-logo #logo{
   width: 85%;
-  max-width: 700px;
+  max-width: 850px;
   height: auto;
-  padding: 5% 0 0;
+  padding: 3% 0 0;
 }
 
 /*social icons*/
 .social-links{
   text-align: center;
-  padding-top: 5%;
 }
 .social-links ul{
   display: block;
