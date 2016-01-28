@@ -19,6 +19,7 @@ html, body{
   right: 0;
   top: 0;
   overflow: hidden;
+  pointer-events: none;
 }
 
 .rigth-block .triangle-effect1{
@@ -122,9 +123,14 @@ svg:hover #icon-social-path {
   right: 3%;
 }
 
-span{
+.contact > a{
   color: #fff;
   font-size: 1.2em;
   text-decoration: none;
   font-weight: 300;
+}
+
+.contact > a:hover{
+  text-decoration: none;
+  color:#C3C3C3;
 }
