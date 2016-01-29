@@ -12,7 +12,7 @@ html, body{
   background: #140025;
   position: relative;
 }
-.rigth-block{
+.right-block{
   display: none;
   height: 100%;
   width: 20%;
@@ -23,7 +23,7 @@ html, body{
   pointer-events: none;
 }
 
-.rigth-block .triangle-effect1{
+.right-block .triangle-effect1{
   position: absolute;
   left: 5%;
   height: 0;
@@ -34,7 +34,7 @@ html, body{
   z-index: 999;
 }
 
-.rigth-block .triangle-effect2{
+.right-block .triangle-effect2{
   position: absolute;
   left: 0;
   height: 0;
@@ -120,31 +120,28 @@ svg:hover #icon-social-path {
 .contact{
   z-index: 10;
   position: absolute;
-  bottom: 5%;
-  right: 3%;
+  bottom: 3%;
+  right: 0;
+  left: 0;
+  text-align: center;
 }
 
-.contact > a{
+.contact span{
   color: #fff;
-  font-size: 1.2em;
+  font-size: 0.9em;
   text-decoration: none;
-  font-weight: 300;
-}
-
-.contact > a:hover{
-  text-decoration: none;
-  color:#C3C3C3;
+  font-weight: 500;
 }
 
 /*responsive*/
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 749px) and (min-width: 600px) {
     .page-name #logo-name {
       height: 70px;
     }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (max-width: 1024px) and (min-width: 700px) {
   .hero-logo{
     height: 65%;
     position: absolute;
@@ -163,9 +160,59 @@ svg:hover #icon-social-path {
     top: 0;
   }
   .hero-logo .slogan{
-    top: 45%;
+    top: 40%;
   }
   .hero-logo .slogan h3 {
-    font-size: 2em;
+    font-size: 2.6em;
+  }
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1024px) {
+  .right-block{
+    display: block;
+    width: 30%;
+  }
+  .social-links{
+    top: 5%;
+  }
+  .page-name{
+    top: initial;
+    bottom: 10%;  
+  }
+  .hero-logo{
+    height: 65%;
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    bottom: 20%;
+  }
+  .hero-logo #devignis-logo{
+    position: absolute;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+  .hero-logo .slogan{
+    top: 40%;
+  }
+  .hero-logo .slogan h3 {
+    font-size: 3em;
+  }
+
+  .social-links ul li{
+    padding: 0 40px;
+  }
+
+  .contact{
+    right: 5%;
+    left: initial;
+  }
+  .contact span{
+    font-size: 1em;
   }
 }
