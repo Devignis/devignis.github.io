@@ -216,3 +216,44 @@ svg:hover #icon-social-path {
     font-size: 1em;
   }
 }
+
+.contact > a:hover{
+  text-decoration: none;
+  color:#C3C3C3;
+}
+
+
+/*responsive*/
+
+@media screen and (min-width: 600px) {
+    .page-name #logo-name {
+      height: 70px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+  .hero-logo{
+    height: 65%;
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+  .hero-logo #devignis-logo{
+    position: absolute;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+  .hero-logo .slogan{
+    top: 45%;
+  }
+  .hero-logo .slogan h3 {
+    font-size: 2em;
+  }
+}
+
